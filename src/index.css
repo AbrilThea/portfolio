@@ -1,0 +1,31 @@
+
+ .hero {
+  min-height: 100vh;
+ }
+
+.projects{
+  min-width: 300px;
+}
+
+.colored-text{
+  background: #FFB76B;
+  background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.about {
+  text-wrap:balance;
+}
+
+footer {
+  background: #FFB76B;
+  background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+}
+@media screen and (max-width: 480px) {
+
+  .profile{
+    padding: 20px;
+  }
+}
