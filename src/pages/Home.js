@@ -20,7 +20,7 @@ const Home = () => {
             <Container>
               <Row className='hero' >
               <Col className='d-flex align-items-center justify-content-center'>
-                <Image src='/profile.jpg' className='profile' width={400} style={{minWidth: 300}} fluid rounded/>
+                <Image src='/profile.jpg' className='profile' width={400} style={{minWidth: 300}} fluid roundedCircle/>
               </Col>
               <Col  className='d-flex flex-column justify-content-center'>
               <Container>
