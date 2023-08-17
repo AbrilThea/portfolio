@@ -26,7 +26,7 @@ const Projects = () => {
     <>
       {projectsData.map((project, index) => (
         <Card key={index} style={{ minwidth: '18rem', maxWidth: '19rem',margin: '1rem' }}>
-          <Card.Img variant="top" src={project.imgSrc} />
+          <Card.Img variant="top" src={project.imgSrc} style={{height:180, objectFit: 'cover'}}/>
           <Card.Body>
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>{project.description}</Card.Text>

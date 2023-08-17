@@ -88,9 +88,12 @@ const Home = () => {
           transition={{delay:0.25}}>
           <div className='d-flex flex-column justify-content-center align-items-center text-center'>
             <h1 className='display-1 fw-bold'>Contact Me</h1>
-            <p>These are my socials where you can ask me if you have any question 
+            <p>These are my socials where you can ask me if you have any question. 
               Feel free to contact me!.
             </p>
+            <Button size='lg' variant='outline-dark' href='mailto:thbe.abril.up@phinmaed.com'>
+              Email Me!
+            </Button>
            <div className='d-flex justify-content-center'>
             <SocialLinks/>
            </div>
