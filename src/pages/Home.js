@@ -11,7 +11,7 @@ import { FaArrowUp } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <section >
+    <>
       <AnimatePresence>
         <motion.div
           initial={{ opacity: 0, y:15}}
@@ -107,7 +107,7 @@ const Home = () => {
           </div>
       </motion.div>
       </AnimatePresence>
-    </section>
+    </>
   );
 };
 

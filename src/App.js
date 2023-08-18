@@ -20,13 +20,13 @@ function App() {
            <NavbarComponent />
           </motion.div>
         </AnimatePresence>
-        <main className='d-flex justify-content-center align-items-center'>
+        <>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/work" element={<Work/>} />
             <Route path="/education" element={<Education/>} />
           </Routes>
-        </main>
+        </>
       </BrowserRouter>
     <Particle />
     <AnimatePresence>
